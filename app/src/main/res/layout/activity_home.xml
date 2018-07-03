@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/btNewGame"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/logo" />
+
+    <Button
+        android:id="@+id/btNewGame"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:background="#16a085"
+        android:text="@string/new_game"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btHiPoint"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btNewGame"
+        android:layout_marginTop="20dp"
+        android:background="#16a085"
+        android:text="@string/best_score"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btExit"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/btHiPoint"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#16a085"
+        android:text="@string/exit"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+</RelativeLayout>

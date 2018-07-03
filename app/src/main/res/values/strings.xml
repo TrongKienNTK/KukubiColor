@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Kukubi Color</string>
+    <string name="logo">Logo</string>
+    <string name="new_game">New Game</string>
+    <string name="high_score">High Score</string>
+    <string name="exit">Exit</string>
+    <string name="alert">Do you want exit?</string>
+    <string name="score">Score: 0</string>
+    <string name="time">Time</string>
+    <string name="start">Get Ready?</string>
+    <string name="your_score">Your Score</string>
+    <string name="the_best_is">THE BEST IS</string>
+    <string name="best_score">BEST SCORE:</string>
+    <string name="go_back">Go Back!</string>
+    <string name="try_one_more">Try One More!</string>
+</resources>
